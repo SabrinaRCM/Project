@@ -1,1 +1,2 @@
-# Project
+# Primeiramente eu gostaria de deixar um recado, eu faço faculdade e estou em semana de provas, então não tive muito tempo por isso não consegui terminar(o tempo que tirei foi ontem só), mas está ai uma amostra. Eu posso continuar desenvolvendo essa semana e vocês podem checar o progresso. E em segundo mas não menos importante, eu li as instruções com atenção, porém se eu confundi alguma informação, peço desculpas pois realmente estava com muita coisa pra estudar. Pronto, agora sim podemos ir direto ao projeto.
+Para abrir o projeto pode rodar dentro da pasta um comando "php -S localhost:8080" e depois no navegador colocar "localhost:8080" ou simplesmente abrir o index. 
