@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <script
+      src="https://kit.fontawesome.com/c706e19347.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar shadow fixed-top">
+      <a href="index.html">
+        <img src="img/logo.png" id="logo" />
+      </a>
+      <i class="fas fa-bars" id="bars"></i>
+      <input
+        class="form-control"
+        type="text"
+        placeholder="Buscar..."
+        id="search"
+      /><i class="fas fa-search"></i>
+      <i class="fas fa-plus" id="plus"> Criar Projeto</i>
+      <i class="fas fa-user-plus"> Cadastrar Usuário</i>
+      <i class="fas fa-user-tie"> Cadastrar Cliente</i>
+    </div>
+    <div class="leftbar">
+      <li class="nav-item dropdown no-arrow">
+        <a
+          class="nav-link dropdown-toggle"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <img class="img-profile rounded-circle" src="img/profile-pic.jpg" />
+          <span
+            class="font-weight-bold"
+            style="font-size: 14px; color:rgb(253, 69, 69);"
+          >
+            Dashboard Admin <br />
+          </span>
+          <span style="font-size: 13px;"> José Severino</span>
+        </a>
+      </li>
+      <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+            Settings
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+            Activity Log
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            Logout
+          </a>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
